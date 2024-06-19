@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Funtempo",
+    "slug": "Funtempo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/calendarIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/dayIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/calendarIcon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "sdkVersion": "51.0.0",
+    "entryPoint": ".vscode\\exponentIndex.js",
+    "extra": {
+      "eas": {
+        "projectId": "6599d566-ef68-48dd-b640-0e63afb0670a"
+      }
+    }
+  },
+  "name": "usermanager---react-native"
+}
